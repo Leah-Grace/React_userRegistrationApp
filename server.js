@@ -4,7 +4,7 @@ const keys = require('./keys');
 const User = require('./models/User');
 const api = require("./routes/api");
 const app = express()
-const port = 3000
+const port = 3030;
 
 // Connecting mongoDB
 const mongoose = require('mongoose');
